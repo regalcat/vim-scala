@@ -19,7 +19,7 @@ silent! setlocal formatoptions+=j
 setlocal comments=sO:*\ -,mO:*\ \ ,exO:*/,s1:/**,mb:*,ex:*/,s1:/*,mb:*,ex:*/,://
 setlocal commentstring=//\ %s
 
-"setlocal shiftwidth=2 softtabstop=2 expandtab
+setlocal shiftwidth=4 softtabstop=4 expandtab
 
 setlocal include='^\s*import'
 setlocal includeexpr='substitute(v:fname,"\\.","/","g")'
